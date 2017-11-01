@@ -7,25 +7,126 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08A3A48A1FA6DBF5007AE7EF /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A3A4831FA6D8C3007AE7EF /* RNCryptor.m */; };
+		08A3A48B1FA6DBF5007AE7EF /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A3A4851FA6D8C3007AE7EF /* RNCryptorEngine.m */; };
+		08A3A48C1FA6DBF5007AE7EF /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A3A4871FA6D8C3007AE7EF /* RNDecryptor.m */; };
+		08A3A48D1FA6DBF5007AE7EF /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A3A4891FA6D8C3007AE7EF /* RNEncryptor.m */; };
+		08B6C6B71FA515B6000957DE /* VLNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6C6B31FA513E6000957DE /* VLNotesViewController.m */; };
+		08B6C6C11FA52818000957DE /* VLWriteNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6C6C01FA5278B000957DE /* VLWriteNoteViewController.m */; };
+		08B6C6DF1FA52A9A000957DE /* PACircleColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6C6C81FA5299D000957DE /* PACircleColorPicker.m */; };
+		08B6C6E01FA52A9A000957DE /* PAColorIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6C6CA1FA5299D000957DE /* PAColorIndicator.m */; };
+		08B6C6E11FA52A9A000957DE /* PAColorPaletteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6C6CC1FA5299D000957DE /* PAColorPaletteView.m */; };
+		08B6C6E21FA52A9A000957DE /* PAColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6C6CE1FA5299D000957DE /* PAColorPickerView.m */; };
+		08B6C6E31FA52A9A000957DE /* PAHueDonutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6C6D21FA5299D000957DE /* PAHueDonutView.m */; };
+		08B6C6E41FA52A9A000957DE /* PARhombView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6C6D41FA5299D000957DE /* PARhombView.m */; };
+		08B6C6E51FA52A9A000957DE /* PASliderColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6C6D61FA5299D000957DE /* PASliderColorView.m */; };
+		08B6C6E61FA52A9A000957DE /* SCColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6C6D81FA5299D000957DE /* SCColorPicker.m */; };
+		08B6C6E71FA52A9A000957DE /* SCModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6C6DA1FA5299D000957DE /* SCModalView.m */; };
+		08B6C6E81FA52A9A000957DE /* SCPopupViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6C6DC1FA5299D000957DE /* SCPopupViewBase.m */; };
+		08B6C6E91FA52B06000957DE /* PAColorPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08B6C6CF1FA5299D000957DE /* PAColorPickerView.xib */; };
+		08B6C6EC1FA52B80000957DE /* NSArray+VLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6C6EB1FA52B80000957DE /* NSArray+VLAddition.m */; };
+		08B6C6F51FA5D9CF000957DE /* VLLocalizedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6C6F01FA5D5BF000957DE /* VLLocalizedButton.m */; };
+		08B6C6F61FA5D9CF000957DE /* VLLocalizedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6C6F21FA5D5BF000957DE /* VLLocalizedLabel.m */; };
+		08B6C6F71FA5D9CF000957DE /* VLLocalizedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6C6F41FA5D5BF000957DE /* VLLocalizedTextField.m */; };
+		08B778AD1FA9073800312E5A /* VLRealmController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B778A91FA906AD00312E5A /* VLRealmController.m */; };
+		08B778AE1FA9073800312E5A /* VLNoteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B778A31FA9060600312E5A /* VLNoteManager.m */; };
+		08B778AF1FA9077400312E5A /* VLRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B778A01FA905D200312E5A /* VLRegisterViewController.m */; };
+		08B778B01FA907D200312E5A /* VLNoteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B778AC1FA9070800312E5A /* VLNoteTableViewCell.m */; };
+		08B778B11FA90BFB00312E5A /* VLNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B778A61FA9067300312E5A /* VLNotificationManager.m */; };
+		08C831231FA7D19D008717FA /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C831221FA7D19D008717FA /* UserNotifications.framework */; };
 		08EB180D1FA3C245008C2EBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EB180C1FA3C245008C2EBA /* AppDelegate.m */; };
-		08EB18101FA3C245008C2EBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EB180F1FA3C245008C2EBA /* ViewController.m */; };
+		08EB18101FA3C245008C2EBA /* VLLogiInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EB180F1FA3C245008C2EBA /* VLLogiInViewController.m */; };
 		08EB18131FA3C245008C2EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08EB18111FA3C245008C2EBA /* Main.storyboard */; };
 		08EB18151FA3C245008C2EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08EB18141FA3C245008C2EBA /* Assets.xcassets */; };
 		08EB18181FA3C245008C2EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08EB18161FA3C245008C2EBA /* LaunchScreen.storyboard */; };
 		08EB181B1FA3C245008C2EBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EB181A1FA3C245008C2EBA /* main.m */; };
+		08EB18271FA3F337008C2EBA /* UIColor+VLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EB18261FA3EE3E008C2EBA /* UIColor+VLAddition.m */; };
+		08EB18331FA46C43008C2EBA /* VLEncryptHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EB18321FA46B17008C2EBA /* VLEncryptHelper.m */; };
+		08EB18361FA4A055008C2EBA /* UIViewController+VLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EB18351FA4A055008C2EBA /* UIViewController+VLAddition.m */; };
+		08EB184C1FA4B538008C2EBA /* VLNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EB184B1FA4B102008C2EBA /* VLNote.m */; };
+		08EB184D1FA4B539008C2EBA /* VLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EB18451FA4AFFB008C2EBA /* VLUser.m */; };
+		0E8B881DA31D4936D4E91DB1 /* libPods-Notes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D2B39212648D51589D9452 /* libPods-Notes.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08A3A4801FA6D8C3007AE7EF /* RNCryptor+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Private.h"; sourceTree = "<group>"; };
+		08A3A4811FA6D8C3007AE7EF /* RNCryptor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-Prefix.pch"; sourceTree = "<group>"; };
+		08A3A4821FA6D8C3007AE7EF /* RNCryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		08A3A4831FA6D8C3007AE7EF /* RNCryptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNCryptor.m; sourceTree = "<group>"; };
+		08A3A4841FA6D8C3007AE7EF /* RNCryptorEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNCryptorEngine.h; sourceTree = "<group>"; };
+		08A3A4851FA6D8C3007AE7EF /* RNCryptorEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNCryptorEngine.m; sourceTree = "<group>"; };
+		08A3A4861FA6D8C3007AE7EF /* RNDecryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNDecryptor.h; sourceTree = "<group>"; };
+		08A3A4871FA6D8C3007AE7EF /* RNDecryptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNDecryptor.m; sourceTree = "<group>"; };
+		08A3A4881FA6D8C3007AE7EF /* RNEncryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNEncryptor.h; sourceTree = "<group>"; };
+		08A3A4891FA6D8C3007AE7EF /* RNEncryptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNEncryptor.m; sourceTree = "<group>"; };
+		08B6C6B21FA513E6000957DE /* VLNotesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLNotesViewController.h; sourceTree = "<group>"; };
+		08B6C6B31FA513E6000957DE /* VLNotesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLNotesViewController.m; sourceTree = "<group>"; };
+		08B6C6BF1FA5278B000957DE /* VLWriteNoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLWriteNoteViewController.h; sourceTree = "<group>"; };
+		08B6C6C01FA5278B000957DE /* VLWriteNoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLWriteNoteViewController.m; sourceTree = "<group>"; };
+		08B6C6C71FA5299D000957DE /* PACircleColorPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PACircleColorPicker.h; sourceTree = "<group>"; };
+		08B6C6C81FA5299D000957DE /* PACircleColorPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PACircleColorPicker.m; sourceTree = "<group>"; };
+		08B6C6C91FA5299D000957DE /* PAColorIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAColorIndicator.h; sourceTree = "<group>"; };
+		08B6C6CA1FA5299D000957DE /* PAColorIndicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAColorIndicator.m; sourceTree = "<group>"; };
+		08B6C6CB1FA5299D000957DE /* PAColorPaletteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAColorPaletteView.h; sourceTree = "<group>"; };
+		08B6C6CC1FA5299D000957DE /* PAColorPaletteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAColorPaletteView.m; sourceTree = "<group>"; };
+		08B6C6CD1FA5299D000957DE /* PAColorPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAColorPickerView.h; sourceTree = "<group>"; };
+		08B6C6CE1FA5299D000957DE /* PAColorPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAColorPickerView.m; sourceTree = "<group>"; };
+		08B6C6CF1FA5299D000957DE /* PAColorPickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PAColorPickerView.xib; sourceTree = "<group>"; };
+		08B6C6D11FA5299D000957DE /* PAHueDonutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAHueDonutView.h; sourceTree = "<group>"; };
+		08B6C6D21FA5299D000957DE /* PAHueDonutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAHueDonutView.m; sourceTree = "<group>"; };
+		08B6C6D31FA5299D000957DE /* PARhombView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PARhombView.h; sourceTree = "<group>"; };
+		08B6C6D41FA5299D000957DE /* PARhombView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PARhombView.m; sourceTree = "<group>"; };
+		08B6C6D51FA5299D000957DE /* PASliderColorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PASliderColorView.h; sourceTree = "<group>"; };
+		08B6C6D61FA5299D000957DE /* PASliderColorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PASliderColorView.m; sourceTree = "<group>"; };
+		08B6C6D71FA5299D000957DE /* SCColorPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCColorPicker.h; sourceTree = "<group>"; };
+		08B6C6D81FA5299D000957DE /* SCColorPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCColorPicker.m; sourceTree = "<group>"; };
+		08B6C6D91FA5299D000957DE /* SCModalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCModalView.h; sourceTree = "<group>"; };
+		08B6C6DA1FA5299D000957DE /* SCModalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCModalView.m; sourceTree = "<group>"; };
+		08B6C6DB1FA5299D000957DE /* SCPopupViewBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCPopupViewBase.h; sourceTree = "<group>"; };
+		08B6C6DC1FA5299D000957DE /* SCPopupViewBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCPopupViewBase.m; sourceTree = "<group>"; };
+		08B6C6EA1FA52B80000957DE /* NSArray+VLAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+VLAddition.h"; sourceTree = "<group>"; };
+		08B6C6EB1FA52B80000957DE /* NSArray+VLAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+VLAddition.m"; sourceTree = "<group>"; };
+		08B6C6EF1FA5D5BF000957DE /* VLLocalizedButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLLocalizedButton.h; sourceTree = "<group>"; };
+		08B6C6F01FA5D5BF000957DE /* VLLocalizedButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLLocalizedButton.m; sourceTree = "<group>"; };
+		08B6C6F11FA5D5BF000957DE /* VLLocalizedLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLLocalizedLabel.h; sourceTree = "<group>"; };
+		08B6C6F21FA5D5BF000957DE /* VLLocalizedLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLLocalizedLabel.m; sourceTree = "<group>"; };
+		08B6C6F31FA5D5BF000957DE /* VLLocalizedTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLLocalizedTextField.h; sourceTree = "<group>"; };
+		08B6C6F41FA5D5BF000957DE /* VLLocalizedTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLLocalizedTextField.m; sourceTree = "<group>"; };
+		08B7789F1FA905D200312E5A /* VLRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLRegisterViewController.h; sourceTree = "<group>"; };
+		08B778A01FA905D200312E5A /* VLRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLRegisterViewController.m; sourceTree = "<group>"; };
+		08B778A21FA9060600312E5A /* VLNoteManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLNoteManager.h; sourceTree = "<group>"; };
+		08B778A31FA9060600312E5A /* VLNoteManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLNoteManager.m; sourceTree = "<group>"; };
+		08B778A51FA9067300312E5A /* VLNotificationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLNotificationManager.h; sourceTree = "<group>"; };
+		08B778A61FA9067300312E5A /* VLNotificationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLNotificationManager.m; sourceTree = "<group>"; };
+		08B778A81FA906AD00312E5A /* VLRealmController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLRealmController.h; sourceTree = "<group>"; };
+		08B778A91FA906AD00312E5A /* VLRealmController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLRealmController.m; sourceTree = "<group>"; };
+		08B778AB1FA9070800312E5A /* VLNoteTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLNoteTableViewCell.h; sourceTree = "<group>"; };
+		08B778AC1FA9070800312E5A /* VLNoteTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLNoteTableViewCell.m; sourceTree = "<group>"; };
+		08C831221FA7D19D008717FA /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		08EB18081FA3C245008C2EBA /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08EB180B1FA3C245008C2EBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08EB180C1FA3C245008C2EBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		08EB180E1FA3C245008C2EBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		08EB180F1FA3C245008C2EBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		08EB180E1FA3C245008C2EBA /* VLLogiInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLLogiInViewController.h; sourceTree = "<group>"; };
+		08EB180F1FA3C245008C2EBA /* VLLogiInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLLogiInViewController.m; sourceTree = "<group>"; };
 		08EB18121FA3C245008C2EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08EB18141FA3C245008C2EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08EB18171FA3C245008C2EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08EB18191FA3C245008C2EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08EB181A1FA3C245008C2EBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08EB18251FA3EE3E008C2EBA /* UIColor+VLAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+VLAddition.h"; sourceTree = "<group>"; };
+		08EB18261FA3EE3E008C2EBA /* UIColor+VLAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VLAddition.m"; sourceTree = "<group>"; };
+		08EB18311FA46B17008C2EBA /* VLEncryptHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLEncryptHelper.h; sourceTree = "<group>"; };
+		08EB18321FA46B17008C2EBA /* VLEncryptHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLEncryptHelper.m; sourceTree = "<group>"; };
+		08EB18341FA4A055008C2EBA /* UIViewController+VLAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+VLAddition.h"; sourceTree = "<group>"; };
+		08EB18351FA4A055008C2EBA /* UIViewController+VLAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+VLAddition.m"; sourceTree = "<group>"; };
+		08EB18381FA4AAD4008C2EBA /* VLConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLConstants.h; sourceTree = "<group>"; };
+		08EB18441FA4AFFB008C2EBA /* VLUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLUser.h; sourceTree = "<group>"; };
+		08EB18451FA4AFFB008C2EBA /* VLUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLUser.m; sourceTree = "<group>"; };
+		08EB184A1FA4B102008C2EBA /* VLNote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLNote.h; sourceTree = "<group>"; };
+		08EB184B1FA4B102008C2EBA /* VLNote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLNote.m; sourceTree = "<group>"; };
+		70D2B39212648D51589D9452 /* libPods-Notes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Notes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73143488180DF7DD7FDC5B5F /* Pods-Notes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Notes/Pods-Notes.debug.xcconfig"; sourceTree = "<group>"; };
+		F20C85611CE4CD38B45B39C5 /* Pods-Notes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Notes/Pods-Notes.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +134,150 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08C831231FA7D19D008717FA /* UserNotifications.framework in Frameworks */,
+				0E8B881DA31D4936D4E91DB1 /* libPods-Notes.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08A3A47F1FA6D8C3007AE7EF /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				08A3A4801FA6D8C3007AE7EF /* RNCryptor+Private.h */,
+				08A3A4811FA6D8C3007AE7EF /* RNCryptor-Prefix.pch */,
+				08A3A4821FA6D8C3007AE7EF /* RNCryptor.h */,
+				08A3A4831FA6D8C3007AE7EF /* RNCryptor.m */,
+				08A3A4841FA6D8C3007AE7EF /* RNCryptorEngine.h */,
+				08A3A4851FA6D8C3007AE7EF /* RNCryptorEngine.m */,
+				08A3A4861FA6D8C3007AE7EF /* RNDecryptor.h */,
+				08A3A4871FA6D8C3007AE7EF /* RNDecryptor.m */,
+				08A3A4881FA6D8C3007AE7EF /* RNEncryptor.h */,
+				08A3A4891FA6D8C3007AE7EF /* RNEncryptor.m */,
+			);
+			path = RNCryptor;
+			sourceTree = "<group>";
+		};
+		08B6C6B11FA513E6000957DE /* VLNotesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				08B6C6B21FA513E6000957DE /* VLNotesViewController.h */,
+				08B6C6B31FA513E6000957DE /* VLNotesViewController.m */,
+			);
+			path = VLNotesViewController;
+			sourceTree = "<group>";
+		};
+		08B6C6BE1FA5278B000957DE /* VLWriteNoteViewController */ = {
+			isa = PBXGroup;
+			children = (
+				08B6C6BF1FA5278B000957DE /* VLWriteNoteViewController.h */,
+				08B6C6C01FA5278B000957DE /* VLWriteNoteViewController.m */,
+			);
+			path = VLWriteNoteViewController;
+			sourceTree = "<group>";
+		};
+		08B6C6C31FA5299D000957DE /* ColorChooser */ = {
+			isa = PBXGroup;
+			children = (
+				08B6C6C71FA5299D000957DE /* PACircleColorPicker.h */,
+				08B6C6C81FA5299D000957DE /* PACircleColorPicker.m */,
+				08B6C6C91FA5299D000957DE /* PAColorIndicator.h */,
+				08B6C6CA1FA5299D000957DE /* PAColorIndicator.m */,
+				08B6C6CB1FA5299D000957DE /* PAColorPaletteView.h */,
+				08B6C6CC1FA5299D000957DE /* PAColorPaletteView.m */,
+				08B6C6CD1FA5299D000957DE /* PAColorPickerView.h */,
+				08B6C6CE1FA5299D000957DE /* PAColorPickerView.m */,
+				08B6C6CF1FA5299D000957DE /* PAColorPickerView.xib */,
+				08B6C6D11FA5299D000957DE /* PAHueDonutView.h */,
+				08B6C6D21FA5299D000957DE /* PAHueDonutView.m */,
+				08B6C6D31FA5299D000957DE /* PARhombView.h */,
+				08B6C6D41FA5299D000957DE /* PARhombView.m */,
+				08B6C6D51FA5299D000957DE /* PASliderColorView.h */,
+				08B6C6D61FA5299D000957DE /* PASliderColorView.m */,
+				08B6C6D71FA5299D000957DE /* SCColorPicker.h */,
+				08B6C6D81FA5299D000957DE /* SCColorPicker.m */,
+				08B6C6D91FA5299D000957DE /* SCModalView.h */,
+				08B6C6DA1FA5299D000957DE /* SCModalView.m */,
+				08B6C6DB1FA5299D000957DE /* SCPopupViewBase.h */,
+				08B6C6DC1FA5299D000957DE /* SCPopupViewBase.m */,
+			);
+			path = ColorChooser;
+			sourceTree = "<group>";
+		};
+		08B6C6ED1FA5D5BF000957DE /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				08B6C6EE1FA5D5BF000957DE /* LocalizableViews */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		08B6C6EE1FA5D5BF000957DE /* LocalizableViews */ = {
+			isa = PBXGroup;
+			children = (
+				08B6C6EF1FA5D5BF000957DE /* VLLocalizedButton.h */,
+				08B6C6F01FA5D5BF000957DE /* VLLocalizedButton.m */,
+				08B6C6F11FA5D5BF000957DE /* VLLocalizedLabel.h */,
+				08B6C6F21FA5D5BF000957DE /* VLLocalizedLabel.m */,
+				08B6C6F31FA5D5BF000957DE /* VLLocalizedTextField.h */,
+				08B6C6F41FA5D5BF000957DE /* VLLocalizedTextField.m */,
+			);
+			path = LocalizableViews;
+			sourceTree = "<group>";
+		};
+		08B7789E1FA905D200312E5A /* VLRegisterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				08B7789F1FA905D200312E5A /* VLRegisterViewController.h */,
+				08B778A01FA905D200312E5A /* VLRegisterViewController.m */,
+			);
+			path = VLRegisterViewController;
+			sourceTree = "<group>";
+		};
+		08B778A11FA9060600312E5A /* VLNoteManager */ = {
+			isa = PBXGroup;
+			children = (
+				08B778A21FA9060600312E5A /* VLNoteManager.h */,
+				08B778A31FA9060600312E5A /* VLNoteManager.m */,
+			);
+			path = VLNoteManager;
+			sourceTree = "<group>";
+		};
+		08B778A41FA9067300312E5A /* VLNotificationManager */ = {
+			isa = PBXGroup;
+			children = (
+				08B778A51FA9067300312E5A /* VLNotificationManager.h */,
+				08B778A61FA9067300312E5A /* VLNotificationManager.m */,
+			);
+			path = VLNotificationManager;
+			sourceTree = "<group>";
+		};
+		08B778A71FA906AD00312E5A /* VLRealmController */ = {
+			isa = PBXGroup;
+			children = (
+				08B778A81FA906AD00312E5A /* VLRealmController.h */,
+				08B778A91FA906AD00312E5A /* VLRealmController.m */,
+			);
+			path = VLRealmController;
+			sourceTree = "<group>";
+		};
+		08B778AA1FA9070800312E5A /* VLNoteTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				08B778AB1FA9070800312E5A /* VLNoteTableViewCell.h */,
+				08B778AC1FA9070800312E5A /* VLNoteTableViewCell.m */,
+			);
+			path = VLNoteTableViewCell;
+			sourceTree = "<group>";
+		};
 		08EB17FF1FA3C245008C2EBA = {
 			isa = PBXGroup;
 			children = (
 				08EB180A1FA3C245008C2EBA /* Notes */,
 				08EB18091FA3C245008C2EBA /* Products */,
+				D3E600B5F9A0B34DF6DE38EF /* Pods */,
+				F04A4A64E75247F8C5F74ECE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +292,98 @@
 		08EB180A1FA3C245008C2EBA /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				08B778A41FA9067300312E5A /* VLNotificationManager */,
+				08B778A71FA906AD00312E5A /* VLRealmController */,
+				08B778A11FA9060600312E5A /* VLNoteManager */,
+				08A3A47F1FA6D8C3007AE7EF /* RNCryptor */,
+				08B6C6ED1FA5D5BF000957DE /* UIComponents */,
+				08B6C6C31FA5299D000957DE /* ColorChooser */,
+				08EB18491FA4B102008C2EBA /* VLNote */,
+				08EB18431FA4AFFB008C2EBA /* VLUser */,
+				08EB18241FA3EE3E008C2EBA /* Utils */,
 				08EB180B1FA3C245008C2EBA /* AppDelegate.h */,
 				08EB180C1FA3C245008C2EBA /* AppDelegate.m */,
-				08EB180E1FA3C245008C2EBA /* ViewController.h */,
-				08EB180F1FA3C245008C2EBA /* ViewController.m */,
+				08EB18371FA4AA7B008C2EBA /* VLLogiInViewController */,
+				08B7789E1FA905D200312E5A /* VLRegisterViewController */,
+				08B6C6B11FA513E6000957DE /* VLNotesViewController */,
+				08B6C6BE1FA5278B000957DE /* VLWriteNoteViewController */,
+				08B778AA1FA9070800312E5A /* VLNoteTableViewCell */,
 				08EB18111FA3C245008C2EBA /* Main.storyboard */,
 				08EB18141FA3C245008C2EBA /* Assets.xcassets */,
 				08EB18161FA3C245008C2EBA /* LaunchScreen.storyboard */,
 				08EB18191FA3C245008C2EBA /* Info.plist */,
 				08EB181A1FA3C245008C2EBA /* main.m */,
+				08EB18381FA4AAD4008C2EBA /* VLConstants.h */,
 			);
 			path = Notes;
+			sourceTree = "<group>";
+		};
+		08EB18241FA3EE3E008C2EBA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				08EB18301FA46B17008C2EBA /* VLEncryptHelper */,
+				08EB18251FA3EE3E008C2EBA /* UIColor+VLAddition.h */,
+				08EB18261FA3EE3E008C2EBA /* UIColor+VLAddition.m */,
+				08EB18341FA4A055008C2EBA /* UIViewController+VLAddition.h */,
+				08EB18351FA4A055008C2EBA /* UIViewController+VLAddition.m */,
+				08B6C6EA1FA52B80000957DE /* NSArray+VLAddition.h */,
+				08B6C6EB1FA52B80000957DE /* NSArray+VLAddition.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		08EB18301FA46B17008C2EBA /* VLEncryptHelper */ = {
+			isa = PBXGroup;
+			children = (
+				08EB18311FA46B17008C2EBA /* VLEncryptHelper.h */,
+				08EB18321FA46B17008C2EBA /* VLEncryptHelper.m */,
+			);
+			path = VLEncryptHelper;
+			sourceTree = "<group>";
+		};
+		08EB18371FA4AA7B008C2EBA /* VLLogiInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				08EB180E1FA3C245008C2EBA /* VLLogiInViewController.h */,
+				08EB180F1FA3C245008C2EBA /* VLLogiInViewController.m */,
+			);
+			path = VLLogiInViewController;
+			sourceTree = "<group>";
+		};
+		08EB18431FA4AFFB008C2EBA /* VLUser */ = {
+			isa = PBXGroup;
+			children = (
+				08EB18441FA4AFFB008C2EBA /* VLUser.h */,
+				08EB18451FA4AFFB008C2EBA /* VLUser.m */,
+			);
+			path = VLUser;
+			sourceTree = "<group>";
+		};
+		08EB18491FA4B102008C2EBA /* VLNote */ = {
+			isa = PBXGroup;
+			children = (
+				08EB184A1FA4B102008C2EBA /* VLNote.h */,
+				08EB184B1FA4B102008C2EBA /* VLNote.m */,
+			);
+			path = VLNote;
+			sourceTree = "<group>";
+		};
+		D3E600B5F9A0B34DF6DE38EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73143488180DF7DD7FDC5B5F /* Pods-Notes.debug.xcconfig */,
+				F20C85611CE4CD38B45B39C5 /* Pods-Notes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F04A4A64E75247F8C5F74ECE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08C831221FA7D19D008717FA /* UserNotifications.framework */,
+				70D2B39212648D51589D9452 /* libPods-Notes.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +393,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08EB181E1FA3C245008C2EBA /* Build configuration list for PBXNativeTarget "Notes" */;
 			buildPhases = (
+				A841DE21BA6305603F3C53EB /* [CP] Check Pods Manifest.lock */,
 				08EB18041FA3C245008C2EBA /* Sources */,
 				08EB18051FA3C245008C2EBA /* Frameworks */,
 				08EB18061FA3C245008C2EBA /* Resources */,
+				397555E8860073B3409D32BE /* [CP] Embed Pods Frameworks */,
+				C99086817695356E22DA19DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +447,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08B6C6E91FA52B06000957DE /* PAColorPickerView.xib in Resources */,
 				08EB18181FA3C245008C2EBA /* LaunchScreen.storyboard in Resources */,
 				08EB18151FA3C245008C2EBA /* Assets.xcassets in Resources */,
 				08EB18131FA3C245008C2EBA /* Main.storyboard in Resources */,
@@ -137,12 +456,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		397555E8860073B3409D32BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Notes/Pods-Notes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A841DE21BA6305603F3C53EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Notes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C99086817695356E22DA19DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Notes/Pods-Notes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		08EB18041FA3C245008C2EBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08EB18101FA3C245008C2EBA /* ViewController.m in Sources */,
+				08B778B11FA90BFB00312E5A /* VLNotificationManager.m in Sources */,
+				08B778B01FA907D200312E5A /* VLNoteTableViewCell.m in Sources */,
+				08B778AF1FA9077400312E5A /* VLRegisterViewController.m in Sources */,
+				08B778AD1FA9073800312E5A /* VLRealmController.m in Sources */,
+				08B778AE1FA9073800312E5A /* VLNoteManager.m in Sources */,
+				08A3A48A1FA6DBF5007AE7EF /* RNCryptor.m in Sources */,
+				08A3A48B1FA6DBF5007AE7EF /* RNCryptorEngine.m in Sources */,
+				08A3A48C1FA6DBF5007AE7EF /* RNDecryptor.m in Sources */,
+				08A3A48D1FA6DBF5007AE7EF /* RNEncryptor.m in Sources */,
+				08B6C6F51FA5D9CF000957DE /* VLLocalizedButton.m in Sources */,
+				08B6C6F61FA5D9CF000957DE /* VLLocalizedLabel.m in Sources */,
+				08B6C6F71FA5D9CF000957DE /* VLLocalizedTextField.m in Sources */,
+				08B6C6DF1FA52A9A000957DE /* PACircleColorPicker.m in Sources */,
+				08B6C6E01FA52A9A000957DE /* PAColorIndicator.m in Sources */,
+				08B6C6E11FA52A9A000957DE /* PAColorPaletteView.m in Sources */,
+				08B6C6E21FA52A9A000957DE /* PAColorPickerView.m in Sources */,
+				08B6C6EC1FA52B80000957DE /* NSArray+VLAddition.m in Sources */,
+				08B6C6E31FA52A9A000957DE /* PAHueDonutView.m in Sources */,
+				08B6C6E41FA52A9A000957DE /* PARhombView.m in Sources */,
+				08B6C6E51FA52A9A000957DE /* PASliderColorView.m in Sources */,
+				08B6C6E61FA52A9A000957DE /* SCColorPicker.m in Sources */,
+				08B6C6E71FA52A9A000957DE /* SCModalView.m in Sources */,
+				08B6C6E81FA52A9A000957DE /* SCPopupViewBase.m in Sources */,
+				08B6C6C11FA52818000957DE /* VLWriteNoteViewController.m in Sources */,
+				08B6C6B71FA515B6000957DE /* VLNotesViewController.m in Sources */,
+				08EB184C1FA4B538008C2EBA /* VLNote.m in Sources */,
+				08EB184D1FA4B539008C2EBA /* VLUser.m in Sources */,
+				08EB18361FA4A055008C2EBA /* UIViewController+VLAddition.m in Sources */,
+				08EB18331FA46C43008C2EBA /* VLEncryptHelper.m in Sources */,
+				08EB18271FA3F337008C2EBA /* UIColor+VLAddition.m in Sources */,
+				08EB18101FA3C245008C2EBA /* VLLogiInViewController.m in Sources */,
 				08EB181B1FA3C245008C2EBA /* main.m in Sources */,
 				08EB180D1FA3C245008C2EBA /* AppDelegate.m in Sources */,
 			);
@@ -276,10 +676,13 @@
 		};
 		08EB181F1FA3C245008C2EBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73143488180DF7DD7FDC5B5F /* Pods-Notes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 827Q97L2JU;
 				INFOPLIST_FILE = Notes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Notes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,10 +692,13 @@
 		};
 		08EB18201FA3C245008C2EBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F20C85611CE4CD38B45B39C5 /* Pods-Notes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 827Q97L2JU;
 				INFOPLIST_FILE = Notes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Notes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
