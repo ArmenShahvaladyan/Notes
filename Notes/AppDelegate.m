@@ -32,7 +32,12 @@
         NSString *username = [[NSUserDefaults standardUserDefaults] objectForKey:kVLUsernameKey];
         NSString *password = [[NSUserDefaults standardUserDefaults] objectForKey:kVLPasswordKey];
         VLNotesViewController *vc = [sb instantiateViewControllerWithIdentifier:@"VLNotesViewControllerId"];
-        [[VLNoteManager sharedInstance] signInWithUsername:username password:password completion:nil];
+        [[VLNoteManager sharedInstance] signInWithUsername:username password:password completion:^(VLUser *user, NSError *error) {
+            if (error) {
+                NSLog(@"can not sign in %@",error.description);
+                //TO-DO
+            }
+        }];
         UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:vc];
         self.window.rootViewController = navController;
     } else {
