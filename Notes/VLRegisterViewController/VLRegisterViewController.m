@@ -34,12 +34,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self setUp];
     [self disableSignInButton];
     [self registerForKeyboardNotifications];
 }
 
 - (void)dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+- (void)setUp {
+    UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self
+                                                                                           action:@selector(handleTapGesture:)];
+    [self.view addGestureRecognizer:tapGestureRecognizer];
+}
+
+#pragma maek - handleTapGesture
+
+- (void)handleTapGesture:(UITapGestureRecognizer *)sender {
+    [self.view endEditing:YES];
 }
 
 #pragma maek - UITextFieldDelegate
