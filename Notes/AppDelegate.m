@@ -11,7 +11,7 @@
 #import "VLConstants.h"
 #import "VLNoteManager.h"
 #import "VLNotificationManager.h"
-#import "VLLogiInViewController.h"
+#import "VLLogInViewController.h"
 #import "VLNotesViewController.h"
 #import "VLWriteNoteViewController.h"
 #import "UIViewController+VLAddition.h"
@@ -41,7 +41,7 @@
         UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:vc];
         self.window.rootViewController = navController;
     } else {
-        VLLogiInViewController *vc = [sb instantiateViewControllerWithIdentifier:@"VLLogiInViewControllerId"];
+        VLLogInViewController *vc = [sb instantiateViewControllerWithIdentifier:@"VLLogiInViewControllerId"];
         self.window.rootViewController = vc;
     }
     

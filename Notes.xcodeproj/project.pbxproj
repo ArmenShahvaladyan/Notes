@@ -35,7 +35,7 @@
 		08B778B11FA90BFB00312E5A /* VLNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B778A61FA9067300312E5A /* VLNotificationManager.m */; };
 		08C831231FA7D19D008717FA /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C831221FA7D19D008717FA /* UserNotifications.framework */; };
 		08EB180D1FA3C245008C2EBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EB180C1FA3C245008C2EBA /* AppDelegate.m */; };
-		08EB18101FA3C245008C2EBA /* VLLogiInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EB180F1FA3C245008C2EBA /* VLLogiInViewController.m */; };
+		08EB18101FA3C245008C2EBA /* VLLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EB180F1FA3C245008C2EBA /* VLLogInViewController.m */; };
 		08EB18131FA3C245008C2EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08EB18111FA3C245008C2EBA /* Main.storyboard */; };
 		08EB18151FA3C245008C2EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08EB18141FA3C245008C2EBA /* Assets.xcassets */; };
 		08EB18181FA3C245008C2EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08EB18161FA3C245008C2EBA /* LaunchScreen.storyboard */; };
@@ -45,6 +45,7 @@
 		08EB18361FA4A055008C2EBA /* UIViewController+VLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EB18351FA4A055008C2EBA /* UIViewController+VLAddition.m */; };
 		08EB184C1FA4B538008C2EBA /* VLNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EB184B1FA4B102008C2EBA /* VLNote.m */; };
 		08EB184D1FA4B539008C2EBA /* VLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EB18451FA4AFFB008C2EBA /* VLUser.m */; };
+		08F26B1D1FADC66D00FA56C8 /* MBProgressHUD+VLTost.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F26B1C1FADC66D00FA56C8 /* MBProgressHUD+VLTost.m */; };
 		0E8B881DA31D4936D4E91DB1 /* libPods-Notes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D2B39212648D51589D9452 /* libPods-Notes.a */; };
 /* End PBXBuildFile section */
 
@@ -106,8 +107,8 @@
 		08EB18081FA3C245008C2EBA /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08EB180B1FA3C245008C2EBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08EB180C1FA3C245008C2EBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		08EB180E1FA3C245008C2EBA /* VLLogiInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLLogiInViewController.h; sourceTree = "<group>"; };
-		08EB180F1FA3C245008C2EBA /* VLLogiInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLLogiInViewController.m; sourceTree = "<group>"; };
+		08EB180E1FA3C245008C2EBA /* VLLogInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLLogInViewController.h; sourceTree = "<group>"; };
+		08EB180F1FA3C245008C2EBA /* VLLogInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLLogInViewController.m; sourceTree = "<group>"; };
 		08EB18121FA3C245008C2EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08EB18141FA3C245008C2EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08EB18171FA3C245008C2EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -124,6 +125,8 @@
 		08EB18451FA4AFFB008C2EBA /* VLUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLUser.m; sourceTree = "<group>"; };
 		08EB184A1FA4B102008C2EBA /* VLNote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLNote.h; sourceTree = "<group>"; };
 		08EB184B1FA4B102008C2EBA /* VLNote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLNote.m; sourceTree = "<group>"; };
+		08F26B1B1FADC66D00FA56C8 /* MBProgressHUD+VLTost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+VLTost.h"; sourceTree = "<group>"; };
+		08F26B1C1FADC66D00FA56C8 /* MBProgressHUD+VLTost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+VLTost.m"; sourceTree = "<group>"; };
 		70D2B39212648D51589D9452 /* libPods-Notes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Notes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73143488180DF7DD7FDC5B5F /* Pods-Notes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Notes/Pods-Notes.debug.xcconfig"; sourceTree = "<group>"; };
 		F20C85611CE4CD38B45B39C5 /* Pods-Notes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Notes/Pods-Notes.release.xcconfig"; sourceTree = "<group>"; };
@@ -321,6 +324,7 @@
 		08EB18241FA3EE3E008C2EBA /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				08F26B1A1FADC4F400FA56C8 /* VLTost */,
 				08EB18301FA46B17008C2EBA /* VLEncryptHelper */,
 				08EB18251FA3EE3E008C2EBA /* UIColor+VLAddition.h */,
 				08EB18261FA3EE3E008C2EBA /* UIColor+VLAddition.m */,
@@ -344,8 +348,8 @@
 		08EB18371FA4AA7B008C2EBA /* VLLogiInViewController */ = {
 			isa = PBXGroup;
 			children = (
-				08EB180E1FA3C245008C2EBA /* VLLogiInViewController.h */,
-				08EB180F1FA3C245008C2EBA /* VLLogiInViewController.m */,
+				08EB180E1FA3C245008C2EBA /* VLLogInViewController.h */,
+				08EB180F1FA3C245008C2EBA /* VLLogInViewController.m */,
 			);
 			path = VLLogiInViewController;
 			sourceTree = "<group>";
@@ -366,6 +370,15 @@
 				08EB184B1FA4B102008C2EBA /* VLNote.m */,
 			);
 			path = VLNote;
+			sourceTree = "<group>";
+		};
+		08F26B1A1FADC4F400FA56C8 /* VLTost */ = {
+			isa = PBXGroup;
+			children = (
+				08F26B1B1FADC66D00FA56C8 /* MBProgressHUD+VLTost.h */,
+				08F26B1C1FADC66D00FA56C8 /* MBProgressHUD+VLTost.m */,
+			);
+			path = VLTost;
 			sourceTree = "<group>";
 		};
 		D3E600B5F9A0B34DF6DE38EF /* Pods */ = {
@@ -420,7 +433,7 @@
 				TargetAttributes = {
 					08EB18071FA3C245008C2EBA = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -528,6 +541,7 @@
 				08B6C6E01FA52A9A000957DE /* PAColorIndicator.m in Sources */,
 				08B6C6E11FA52A9A000957DE /* PAColorPaletteView.m in Sources */,
 				08B6C6E21FA52A9A000957DE /* PAColorPickerView.m in Sources */,
+				08F26B1D1FADC66D00FA56C8 /* MBProgressHUD+VLTost.m in Sources */,
 				08B6C6EC1FA52B80000957DE /* NSArray+VLAddition.m in Sources */,
 				08B6C6E31FA52A9A000957DE /* PAHueDonutView.m in Sources */,
 				08B6C6E41FA52A9A000957DE /* PARhombView.m in Sources */,
@@ -542,7 +556,7 @@
 				08EB18361FA4A055008C2EBA /* UIViewController+VLAddition.m in Sources */,
 				08EB18331FA46C43008C2EBA /* VLEncryptHelper.m in Sources */,
 				08EB18271FA3F337008C2EBA /* UIColor+VLAddition.m in Sources */,
-				08EB18101FA3C245008C2EBA /* VLLogiInViewController.m in Sources */,
+				08EB18101FA3C245008C2EBA /* VLLogInViewController.m in Sources */,
 				08EB181B1FA3C245008C2EBA /* main.m in Sources */,
 				08EB180D1FA3C245008C2EBA /* AppDelegate.m in Sources */,
 			);
@@ -679,12 +693,15 @@
 			baseConfigurationReference = 73143488180DF7DD7FDC5B5F /* Pods-Notes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 827Q97L2JU;
 				INFOPLIST_FILE = Notes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Notes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -694,12 +711,15 @@
 			baseConfigurationReference = F20C85611CE4CD38B45B39C5 /* Pods-Notes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 827Q97L2JU;
 				INFOPLIST_FILE = Notes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Notes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

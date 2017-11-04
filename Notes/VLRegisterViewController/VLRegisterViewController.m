@@ -7,10 +7,10 @@
 //
 
 #import "VLRegisterViewController.h"
-#import "UIViewController+VLAddition.h"
 #import "UIColor+VLAddition.h"
 #import "VLNoteManager.h"
 #import "VLConstants.h"
+#import "MBProgressHUD+VLTost.h"
 
 @interface VLRegisterViewController ()
 
@@ -169,7 +169,7 @@
                                             completion:^(VLUser *user, NSError *error) {
                                                 if (error) {
                                                     NSString *message = error.userInfo[NSLocalizedDescriptionKey];
-                                                    [self showAlerForSigUpWithMessage:message];
+                                                    [MBProgressHUD showTostOnView:self.view title:message];
                                                 } else {
                                                     [self performSegueWithIdentifier:@"register-notes" sender:nil];
                                                 }

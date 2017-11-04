@@ -6,15 +6,14 @@
 //  Copyright © 2017 Armen. All rights reserved.
 //
 
-#import "VLLogiInViewController.h"
+#import "VLLogInViewController.h"
 #import "UIColor+VLAddition.h"
-#import "UIViewController+VLAddition.h"
 #import "VLConstants.h"
 #import "VLUser.h"
 #import "VLNotesViewController.h"
 #import "VLNoteManager.h"
 #import "VLNotificationManager.h"
-#import <MBProgressHUD/MBProgressHUD.h>
+#import "MBProgressHUD+VLTost.h"
 
 @interface VLLogInViewController () <UITextFieldDelegate>
 
@@ -44,14 +43,7 @@
     [self disableSignInButton];
     [self registerForKeyboardNotifications];
     
-    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     
-    // Configure for text only and offset down
-    hud.mode = MBProgressHUDModeText;
-    hud.label.text = @"Some message...";
-    hud.margin = 10.f;
-    hud.removeFromSuperViewOnHide = YES;
-    [hud hideAnimated:YES afterDelay:3];
 }
 
 - (void)dealloc {
@@ -188,7 +180,7 @@
                                             completion:^(VLUser *user, NSError *error) {
                                                 if (error) {
                                                     NSString *message = error.userInfo[NSLocalizedDescriptionKey];
-                                                    [self showAlerForIncorrectUserWithMessage:message];
+                                                    [MBProgressHUD showTostOnView:self.view title:message];
                                                 } else {
                                                     for (VLNote *note in user.notes) {
                                                         [VLNotificationManager setNotificationWithNote:note];

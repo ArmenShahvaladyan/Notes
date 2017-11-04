@@ -11,10 +11,10 @@
 #import "UIColor+VLAddition.h"
 #import "VLNote.h"
 #import "VLUser.h"
-#import "UIViewController+VLAddition.h"
 #import "VLRealmController.h"
 #import "VLNotificationManager.h"
 #import "VLConstants.h"
+#import "MBProgressHUD+VLTost.h"
 
 static const NSInteger pickerViewHeight = 244;
 
@@ -43,12 +43,19 @@ static const NSInteger pickerViewHeight = 244;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self registerForKeyboardNotifications];
     [self setUp];
+    [self registerForKeyboardNotifications];
 }
 
 - (void)dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+#pragma maek - handleTapGesture
+
+- (void)handleTapGesture:(UITapGestureRecognizer *)sender {
+    [self done:nil];
+    //[self.view endEditing:YES];
 }
 
 #pragma mark - ColorPickerDelegate
@@ -65,7 +72,8 @@ static const NSInteger pickerViewHeight = 244;
     if (allText.length <= 30) {
         return YES;
     }
-    [self showAlerForFilledCharactersWithTitle:@"" message:kVLIncorrectLenghtOfNoteTitle];
+    [self.view endEditing:YES];
+    [MBProgressHUD showTostOnView:self.view title:kVLIncorrectLenghtOfNoteTitle];
     return NO;
 }
 
@@ -82,14 +90,18 @@ static const NSInteger pickerViewHeight = 244;
     if (allText.length <= 200) {
         return YES;
     }
-    
-    [self showAlerForFilledCharactersWithTitle:@"" message:kVLIncorrectLenghtOfNote];
+    [self done:nil];
+    [MBProgressHUD showTostOnView:self.view title:kVLIncorrectLenghtOfNote];
     return NO;
 }
 
 #pragma mark - Private api
 
 - (void)setUp {
+    UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self
+                                                                                           action:@selector(handleTapGesture:)];
+    [self.view addGestureRecognizer:tapGestureRecognizer];
+    
     self.titleTField.text = self.note.title;
     self.noteTextView.text = self.note.desc;
     self.notificationSwitch.on = self.note.isNotificationEnable;
@@ -134,6 +146,7 @@ static const NSInteger pickerViewHeight = 244;
 }
 
 - (void)keyboardWillShown:(NSNotification*)notification {
+    [self closeDataPicker];
     NSDictionary* info = [notification userInfo];
     CGSize keyboardSize = [[info objectForKey:UIKeyboardFrameEndUserInfoKey] CGRectValue].size;
     CGFloat duration = [[info objectForKey:UIKeyboardAnimationDurationUserInfoKey] floatValue];
@@ -189,6 +202,7 @@ static const NSInteger pickerViewHeight = 244;
 
 - (IBAction)color:(id)sender {
     [self.view endEditing:YES];
+    [self closeDataPicker];
     SCColorPicker *colorPicker = [[SCColorPicker alloc] init];
     colorPicker.delegate = self;
     colorPicker.tag = 1;
@@ -210,7 +224,7 @@ static const NSInteger pickerViewHeight = 244;
 
 - (IBAction)save:(id)sender {
     if ([self isFieldsEmpty]) {
-        [self showAlerWithEmptyFields];
+        [MBProgressHUD showTostOnView:self.view title:kVLFillAllFields];
     } else {
         if (self.note) {
             NSDictionary *data = [self noteNewData];

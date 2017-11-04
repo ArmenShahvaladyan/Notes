@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VLLogiInViewController : UIViewController
+@interface VLLogInViewController : UIViewController
 
 
 @end

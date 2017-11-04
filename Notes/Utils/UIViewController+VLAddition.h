@@ -10,11 +10,6 @@
 
 @interface UIViewController (VLAddition)
 
-- (void)showAlerWithEmptyFields;
-- (void)showAlerForExistUsername;
-- (void)showAlerForIncorrectUserWithMessage:(NSString *)message;
-- (void)showAlerForSigUpWithMessage:(NSString *)message;
-- (void)showAlerForFilledCharactersWithTitle:(NSString *)title message:(NSString *)message;
 - (void)showAlerWithTitle:(NSString *)title nessage:(NSString *)message;
 
 @end
