@@ -113,7 +113,9 @@ static const NSInteger pickerViewHeight = 244;
                                                           green:83.f / 255.f
                                                            blue:154.f / 255
                                                           alpha:1].CGColor;
-    if (!self.note) {
+    if (self.note && self.dateAndTimeLabel.text.length > 0) {
+        self.notificationSwitch.enabled = YES;
+    } else {
         self.notificationSwitch.enabled = NO;
     }
 }
